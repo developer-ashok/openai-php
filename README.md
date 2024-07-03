@@ -1,10 +1,10 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/openai-php/client/main/art/example.png" width="600" alt="OpenAI PHP">
+    <img src="https://raw.githubusercontent.com/coderubix/openai-php-client/main/art/example.png" width="600" alt="OpenAI PHP">
     <p align="center">
-        <a href="https://github.com/openai-php/client/actions"><img alt="GitHub Workflow Status (main)" src="https://img.shields.io/github/actions/workflow/status/openai-php/client/tests.yml?branch=main&label=tests&style=round-square"></a>
-        <a href="https://packagist.org/packages/openai-php/client"><img alt="Total Downloads" src="https://img.shields.io/packagist/dt/openai-php/client"></a>
-        <a href="https://packagist.org/packages/openai-php/client"><img alt="Latest Version" src="https://img.shields.io/packagist/v/openai-php/client"></a>
-        <a href="https://packagist.org/packages/openai-php/client"><img alt="License" src="https://img.shields.io/github/license/openai-php/client"></a>
+        <a href="https://github.com/coderubix/openai-php-client/actions"><img alt="GitHub Workflow Status (main)" src="https://img.shields.io/github/actions/workflow/status/coderubix/openai-php-client/tests.yml?branch=main&label=tests&style=round-square"></a>
+        <a href="https://packagist.org/packages/coderubix/openai-php-client"><img alt="Total Downloads" src="https://img.shields.io/packagist/dt/coderubix/openai-php-client"></a>
+        <a href="https://packagist.org/packages/coderubix/openai-php-client"><img alt="Latest Version" src="https://img.shields.io/packagist/v/coderubix/openai-php-client"></a>
+        <a href="https://packagist.org/packages/coderubix/openai-php-client"><img alt="License" src="https://img.shields.io/github/license/coderubix/openai-php-client"></a>
     </p>
 </p>
 
@@ -50,7 +50,7 @@
 First, install OpenAI via the [Composer](https://getcomposer.org/) package manager:
 
 ```bash
-composer require openai-php/client
+composer require coderubix/openai-php-client
 ```
 
 Ensure that the `php-http/discovery` composer plugin is allowed to run or install a client manually if your project does not already have a PSR-18 client integrated.
