@@ -31,7 +31,7 @@ final class RetrieveJobResponseError implements ResponseContract
      */
     public static function from(array $attributes): ?self
     {
-        if (key_exists('error', $attributes) && is_null($attributes['error'])) {
+        if ((key_exists('error', $attributes) && is_null($attributes['error'])) || !isset($attributes['code']) || !isset($attributes['param']) || !isset($attributes['message'])) {
             return null;
         }
         return new self(
